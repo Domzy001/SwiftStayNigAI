@@ -1,0 +1,15 @@
+swiftstay-ai/
+│
+├── index.html              → Homepage (with smart recommendations)
+├── onboard.html            → Hotel onboarding form
+├── style.css               → Main styles
+├── chatbot.js              → Floating AI chatbot
+├── recommendations.js      → Fetch & display AI hotel recommendations
+│
+├── backend/
+│   ├── swiftstay_ai.py     → FastAPI backend (AI logic)
+│   ├── requirements.txt    → Python dependencies
+│
+└── assets/
+    ├── logo.png
+    ├── bg.jpg
